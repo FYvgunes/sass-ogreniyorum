@@ -21,66 +21,57 @@ a {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   margin-bottom: 15px; }
-
-.login-header {
-  font-size: 21px;
-  padding: 23px;
-  text-transform: uppercase; }
-
-.login-content {
-  padding: 0 23px; }
-
-.login-content input {
-  display: flex;
-  width: 280px;
-  padding: 10px;
-  margin-bottom: 25px;
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-color: rgba(155, 155, 155, 0.507); }
-
-.login-content input::placeholder {
-  color: rgba(0, 0, 0, 0.363); }
-
-.login-footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 23px;
-  margin-top: 30px;
-  line-height: 40px; }
-
-.login-footer a:first-child {
-  width: 80px;
-  height: 40px;
-  color: white;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  line-height: 40px;
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  background-color: rgba(230, 112, 16, 0.829); }
-
-.login-footer a:first-child:hover {
-  background-color: rgba(230, 112, 16, 0.575);
-  color: white; }
-
-.login-footer a {
-  color: #665f5f;
-  transition: 300ms all;
-  -webkit-transition: 300ms all;
-  -moz-transition: 300ms all;
-  -ms-transition: 300ms all;
-  -o-transition: 300ms all; }
-
-.login-footer a:hover {
-  color: black; }
+  .container .login-header {
+    font-size: 21px;
+    padding: 23px;
+    text-transform: uppercase; }
+  .container .login-content {
+    padding: 0 23px; }
+  .container .login-content input {
+    display: flex;
+    width: 280px;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-color: rgba(155, 155, 155, 0.507); }
+  .container .login-content input::placeholder {
+    color: rgba(0, 0, 0, 0.363); }
+  .container .login-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 23px;
+    margin-top: 30px;
+    line-height: 40px; }
+  .container .login-footer a:first-child {
+    width: 80px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    background-color: rgba(230, 112, 16, 0.829); }
+  .container .login-footer a:first-child:hover {
+    background-color: rgba(230, 112, 16, 0.575);
+    color: white; }
+  .container .login-footer a {
+    color: #665f5f;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+    -o-transition: 300ms all; }
+  .container .login-footer a:hover {
+    color: black; }
 
 .signup {
   color: #e6e6e6;

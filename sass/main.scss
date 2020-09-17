@@ -32,54 +32,55 @@ a {
   height: 270px;
   @include border-radius(5px);
   margin-bottom: 15px;
-}
-.login-header {
-  font-size: 21px;
-  padding: 23px;
-  text-transform: uppercase;
-}
-.login-content {
-  padding: 0 23px;
-}
-.login-content input {
-  display: flex;
-  width: 280px;
-  padding: 10px;
-  margin-bottom: 25px;
-  @include border-radius(3px);
-  border-color: rgba(155, 155, 155, 0.507);
-}
-.login-content input::placeholder {
-  color: rgba(0, 0, 0, 0.363);
-}
-.login-footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 23px;
-  margin-top: 30px;
-  line-height: 40px;
-}
-.login-footer a:first-child {
-  width: 80px;
-  height: 40px;
-  color: white;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  line-height: 40px;
-  @include border-radius(3px);
-  background-color: rgba(230, 112, 16, 0.829);
-}
-.login-footer a:first-child:hover {
-  background-color: rgba(230, 112, 16, 0.575);
-  color: white;
-}
-.login-footer a {
-  color: rgb(102, 95, 95);
-  @include transistion();
-}
-.login-footer a:hover {
-  color: black;
+
+  .login-header {
+    font-size: 21px;
+    padding: 23px;
+    text-transform: uppercase;
+  }
+  .login-content {
+    padding: 0 23px;
+  }
+  .login-content input {
+    display: flex;
+    width: 280px;
+    padding: 10px;
+    margin-bottom: 25px;
+    @include border-radius(3px);
+    border-color: rgba(155, 155, 155, 0.507);
+  }
+  .login-content input::placeholder {
+    color: rgba(0, 0, 0, 0.363);
+  }
+  .login-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 23px;
+    margin-top: 30px;
+    line-height: 40px;
+  }
+  .login-footer a:first-child {
+    width: 80px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    @include border-radius(3px);
+    background-color: rgba(230, 112, 16, 0.829);
+  }
+  .login-footer a:first-child:hover {
+    background-color: rgba(230, 112, 16, 0.575);
+    color: white;
+  }
+  .login-footer a {
+    color: rgb(102, 95, 95);
+    @include transistion();
+  }
+  .login-footer a:hover {
+    color: black;
+  }
 }
 .signup {
   color: rgb(230, 230, 230);
