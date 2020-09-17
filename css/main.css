@@ -15,11 +15,11 @@ a {
   background-color: white;
   width: 350px;
   height: 270px;
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   margin-bottom: 15px; }
 
 .login-header {
@@ -61,11 +61,11 @@ a {
   justify-content: center;
   line-height: 40px;
   border-radius: 3px;
-  background-color: rgba(230, 112, 16, 0.829);
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
-  -o-border-radius: 3px; }
+  -o-border-radius: 3px;
+  background-color: rgba(230, 112, 16, 0.829); }
 
 .login-footer a:first-child:hover {
   background-color: rgba(230, 112, 16, 0.575);
