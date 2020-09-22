@@ -5,7 +5,7 @@
   -ms-border-radius: $per;
   -o-border-radius: $per;
 }
-@mixin transistion {
+.egim {
   transition: 300ms all;
   -webkit-transition: 300ms all;
   -moz-transition: 300ms all;
@@ -76,7 +76,7 @@ a {
   }
   .login-footer a {
     color: rgb(102, 95, 95);
-    @include transistion();
+    @extend .egim;
   }
   .login-footer a:hover {
     color: black;
