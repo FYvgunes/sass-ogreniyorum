@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/choose_your.scss css/choose_your.css -w"
+    "compile:sass": "node-sass sass/3d-Button.scss css/3d-Button.css -w"
   },
   "author": "",
   "license": "ISC",
